@@ -43,3 +43,10 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope oldfiles<cr>") -- list available h
 
 keymap.set("n", '<leader>sf', ':?func<CR>n|v]M%', { noremap = true, silent = true })
 
+-- errors
+keymap.set('n', '<leader>ge', '<cmd>GenerateErrorHandlingErrors<CR>', { noremap = true, silent = true })
+keymap.set('n', '<leader>gi', '<cmd>GenerateErrorHandlingInfo<CR>', { noremap = true, silent = true })
+keymap.set('n', '<leader>gf', '<cmd>GenerateErrorHandlingFatal<CR>', { noremap = true, silent = true })
+
+
+
