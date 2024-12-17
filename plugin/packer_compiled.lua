@@ -110,12 +110,17 @@ _G.packer_plugins = {
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n�\3\0\0\a\0\r\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\3\0005\4\5\0005\5\4\0=\5\6\0044\5\5\0005\6\a\0>\6\1\0055\6\b\0>\6\2\0055\6\t\0>\6\3\0055\6\n\0>\6\4\5=\5\v\4=\4\f\3>\3\1\2B\0\2\1K\0\1\0\vconfig\rshortcut\1\0\4\ngroup\vNumber\vaction\23Telescope dotfiles\bkey\6d\tdesc\17 dotfiles\1\0\4\ngroup\19DiagnosticHint\vaction\18Telescope app\bkey\6a\tdesc\r Apps\1\0\6\ngroup\nLabel\ficon_hl\14@variable\vaction\25Telescope find_files\tdesc\nFiles\ticon\t \bkey\6f\1\0\4\ngroup\14@property\vaction\16Lazy update\bkey\6u\tdesc\16󰊳 Update\16week_header\1\0\2\16week_header\0\rshortcut\0\1\0\1\venable\2\1\0\2\ntheme\nhyper\vconfig\0\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n�\3\0\0\a\0\r\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\3\0005\4\5\0005\5\4\0=\5\6\0044\5\5\0005\6\a\0>\6\1\0055\6\b\0>\6\2\0055\6\t\0>\6\3\0055\6\n\0>\6\4\5=\5\v\4=\4\f\3>\3\1\2B\0\2\1K\0\1\0\vconfig\rshortcut\1\0\4\vaction\23Telescope dotfiles\ngroup\vNumber\tdesc\17 dotfiles\bkey\6d\1\0\4\vaction\18Telescope app\ngroup\19DiagnosticHint\tdesc\r Apps\bkey\6a\1\0\6\vaction\25Telescope find_files\bkey\6f\ficon_hl\14@variable\ticon\t \ngroup\nLabel\tdesc\nFiles\1\0\4\vaction\16Lazy update\ngroup\14@property\tdesc\16󰊳 Update\bkey\6u\16week_header\1\0\2\rshortcut\0\16week_header\0\1\0\1\venable\2\1\0\2\vconfig\0\ntheme\nhyper\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
     path = "/home/teja/.local/share/nvim/site/pack/packer/opt/dashboard-nvim",
     url = "https://github.com/nvimdev/dashboard-nvim"
+  },
+  ["easypick.nvim"] = {
+    loaded = true,
+    path = "/home/teja/.local/share/nvim/site/pack/packer/start/easypick.nvim",
+    url = "https://github.com/axkirillov/easypick.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,

@@ -41,12 +41,11 @@ keymap.set("n", "<leader>fr", "<cmd>Telescope registers<cr>") -- list copy regis
 keymap.set("n", "<leader>fds", "<cmd>Telescope lsp_document_symbols<cr>") -- list copy registers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope oldfiles<cr>") -- list available help tags
 
+keymap.set("n", "<leader>fg", "<cmd>Easypick<cr>") -- open easypick
+
 keymap.set("n", '<leader>sf', ':?func<CR>n|v]M%', { noremap = true, silent = true })
 
 -- errors
 keymap.set('n', '<leader>ge', '<cmd>GenerateErrorHandlingErrors<CR>', { noremap = true, silent = true })
 keymap.set('n', '<leader>gi', '<cmd>GenerateErrorHandlingInfo<CR>', { noremap = true, silent = true })
 keymap.set('n', '<leader>gf', '<cmd>GenerateErrorHandlingFatal<CR>', { noremap = true, silent = true })
-
-
-
